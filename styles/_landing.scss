@@ -1,4 +1,15 @@
-.container {
+.main-container {
     max-width: 1500px;
     width: 100%;
+}
+
+.nav-hover {
+    color: #5271ff;
+}
+
+.nav-hover:hover {
+    color:black;
+    text-shadow: 0px 0px 50px black;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
 }
