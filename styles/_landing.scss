@@ -98,6 +98,24 @@
     &__paragraph {
         @extend %section__paragraph;
     }
+
+    &__education_name {
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        color: white;
+    }
+
+    &__education_type {
+        font-size: 15px;
+        color: #5271ff;
+        list-style: none;
+    }
+
+    &__education_place {
+        font-size: 13px;
+        color: #5271ff;
+        list-style: none;
+    }
 }
 
 .section4 {
