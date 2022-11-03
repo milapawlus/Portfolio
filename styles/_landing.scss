@@ -25,6 +25,31 @@
     font-weight: 300;
 }
 
+%section__rect1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 60%;
+    background-color: #5271ff;
+}
+
+%section__rect2 {
+    width: 60%;
+    height: 130%;
+    padding: 15px;
+    background-color: black;
+    box-shadow: 0px 0px 50px black;
+}
+
+%section__heading {
+    text-shadow: 0px 0px 20px gray;
+}
+
+%section__paragraph {
+    font-size: 17px;
+}
+
 .section2 {
     display: flex;
     justify-content: center;
@@ -33,27 +58,114 @@
     height: 700px;
 
     &__rect1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 70%;
-        height: 60%;
-        background-color: #5271ff;
+        @extend %section__rect1;
     }
 
     &__rect2 {
-        width: 60%;
-        height: 130%;
-        padding: 15px;
-        background-color: black;
-        box-shadow: 0px 0px 50px black;
+        @extend %section__rect2;
     }
 
     &__heading {
-        text-shadow: 0px 0px 20px gray;
+        @extend %section__heading;
     }
 
     &__paragraph {
-        font-size: 17px;
+        @extend %section__paragraph;
+    }
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+
+    &__rect1 {
+        @extend %section__rect1;
+    }
+
+    &__rect2 {
+        @extend %section__rect2;
+    }
+
+    &__heading {
+        @extend %section__heading;
+    }
+
+    &__paragraph {
+        @extend %section__paragraph;
+    }
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+
+    &__rect1 {
+        @extend %section__rect1;
+    }
+
+    &__rect2 {
+        @extend %section__rect2;
+    }
+
+    &__heading {
+        @extend %section__heading;
+    }
+
+    &__paragraph {
+        @extend %section__paragraph;
+    }
+}
+
+.section5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+
+    &__rect1 {
+        @extend %section__rect1;
+    }
+
+    &__rect2 {
+        @extend %section__rect2;
+    }
+
+    &__heading {
+        @extend %section__heading;
+    }
+
+    &__paragraph {
+        @extend %section__paragraph;
+    }
+}
+
+.section6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+
+    &__rect1 {
+        @extend %section__rect1;
+    }
+
+    &__rect2 {
+        @extend %section__rect2;
+    }
+
+    &__heading {
+        @extend %section__heading;
+    }
+
+    &__paragraph {
+        @extend %section__paragraph;
     }
 }
