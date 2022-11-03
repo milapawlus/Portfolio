@@ -59,6 +59,7 @@
 .footer__paragraph, .section6__paragraph, .section5__paragraph, .section4__paragraph, .section3__paragraph, .section2__paragraph {
   font-size: 17px;
   font-family: "Roboto", sans-serif;
+  color: white;
 }
 
 .section2 {
@@ -126,6 +127,14 @@
   width: 100%;
   height: 700px;
 }
+.section6__label_info {
+  color: white;
+}
+.section6__input_info {
+  resize: none;
+  outline: none;
+}
+
 .footer__icon:hover {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;

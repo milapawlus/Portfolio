@@ -49,6 +49,7 @@
 %section__paragraph {
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 .section2 {
@@ -168,6 +169,15 @@
 
     &__paragraph {
         @extend %section__paragraph;
+    }
+
+    &__label_info {
+        color: white;
+    }
+
+    &__input_info {
+        resize: none;
+        outline: none;
     }
 }
 
