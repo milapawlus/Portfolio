@@ -140,6 +140,24 @@
     &__paragraph {
         @extend %section__paragraph;
     }
+
+    &__list {
+        color: white;
+        font-size: 25px;
+    }
+
+    &__link {
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        color: white;
+        text-decoration: none;
+    }
+
+    &__details {
+        font-size: 18px;
+        color: #5271ff;
+        list-style: none;
+    }
 }
 
 .section5 {
