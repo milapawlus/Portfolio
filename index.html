@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cb9c36020e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
     <title>Bogumila Pawlus</title>
@@ -12,10 +16,10 @@
 </head>
 <body>
     <div class="main-container">
-        <nav class="navbar navbar-expand-lg bg-white py-4">
+        <nav class="navbar navbar-expand-lg bg-black py-4">
             <div class="container">
               <a class="navbar-brand" href="#">
-                <img src="images/logo.PNG" alt="..." height="100">
+                <img class="rounded-circle" src="images/logo.PNG" alt="..." height="100">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,27 +51,30 @@
 
         <section id="welcome">
             <img class="rounded-circle img-shadow img-responsive center-block d-block mx-auto" alt="avatar2" src="images/profile-img.jpg" height="400" />
-            <h1 class="text-center"><span class="text-primary"></span> Bogumila Pawlus</h1>
+            <h1 class="text-center text-details"><span class="text-primary"></span> Bogumila Pawlus</h1>
         </section>
 
         <section class="section2" id="aboutme">
             <div class="section2__rect1">
                 <div class="section2__rect2">
-                    <h3 class="text-light text-center section2__heading">About Me</h3>
+                    <h3 class="text-light text-center text-details section2__heading">About Me</h3>
                     <br>
                     <p class="text-light text-center section2__paragraph">I was born and brought up in Poland, it’s been 11 years since I moved to Sweden.
                         I have chosen Sweden because most of my friends are already been living here and they spoke highly about the country.
                         Moreover, Sweden offers good job opportunities and helps to grow in life. For the past few years,
                         I worked in the hotel and catering industry which had been very interesting, giving me the opportunity to work in a team to develop my social and communication skills.
-
+                        <br>
+                        <br>
                         Right now I am in a stage of my life where I’m motivated and eager to learn new things.
                         I’m a positive and open-minded person with good communication skills and fluent in speaking English and moderate Swedish.
                         I have been to a Swedish SFI course to learn Swedish, this course helped me a lot to communicate in Sweden.
                         During my spare time, I like to explore the internet, recently I have started to learn front-end programming languages.
-
+                        <br>
+                        <br>
                         Since childhood, I was more interested in art and drawing. I was even taking part in many art competitions.
                         I think this interest drove me to learn front-end programming languages. Whenever I try to learn to code,
-                        I visualize it as some kind of art and my target is to make it beautiful. Besides, I am also an animal lover.</p>
+                        I visualize it as some kind of art and my target is to make it beautiful. Besides, I am also an animal lover.
+                    </p>
                 </div>
             </div>
         </section>
@@ -75,7 +82,7 @@
         <section class="section3" id="education">
             <div class="section3__rect1">
                 <div class="section3__rect2">
-                    <h3 class="text-light text-center section3__heading">Education</h3>
+                    <h3 class="text-light text-center text-details section3__heading">Education</h3>
                     <br>
                     <p class="text-light text-center section3__paragraph"></p>
                 </div>
@@ -85,7 +92,7 @@
         <section class="section4" id="projects">
             <div class="section4__rect1">
                 <div class="section4__rect2">
-                    <h3 class="text-light text-center section4__heading">Projects</h3>
+                    <h3 class="text-light text-center text-details section4__heading">Projects</h3>
                     <br>
                     <p class="text-light text-center section4__paragraph"></p>
                 </div>
@@ -95,7 +102,7 @@
         <section class="section5" id="skils">
             <div class="section5__rect1">
                 <div class="section5__rect2">
-                    <h3 class="text-light text-center section5__heading">Skils</h3>
+                    <h3 class="text-light text-center text-details section5__heading">Skils</h3>
                     <br>
                     <p class="text-light text-center section5__paragraph"></p>
                 </div>
@@ -105,13 +112,45 @@
         <section class="section6" id="contact">
             <div class="section6__rect1">
                 <div class="section6__rect2">
-                    <h3 class="text-light text-center section6__heading">Contact</h3>
+                    <h3 class="text-light text-center text-details section6__heading">Contact</h3>
                     <br>
                     <p class="text-light text-center section6__paragraph"></p>
                 </div>
             </div>
         </section>
 
+        <footer class="footer bg-light text-center text-white">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Linkedin -->
+                <a
+                  class="btn text-white btn-floating m-1"
+                  style="background-color: #0082ca;"
+                  href="#!"
+                  role="button">
+                  <i class="fab fa-linkedin-in footer__icon"></i>
+                </a>
+                <!-- Github -->
+                <a
+                  class="btn text-white btn-floating m-1"
+                  style="background-color: #333333;"
+                  href="#!"
+                  role="button">
+                  <i class="fab fa-github footer__icon"></i>
+                </a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: black;">
+              <p class="footer__paragraph"> © 2022 Copyright: Bogumila Pawlus</p>
+            </div>
+            <!-- Copyright -->
+        </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>

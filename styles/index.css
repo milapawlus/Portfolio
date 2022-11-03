@@ -8,7 +8,7 @@
 }
 
 .nav-hover:hover {
-  color: black;
+  color: white;
   text-shadow: 0px 0px 50px black;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -23,9 +23,9 @@
           box-shadow: 0px 0px 50px gray;
 }
 
-.text-center {
+.text-details {
   font-size: 50px;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .section6__rect1, .section5__rect1, .section4__rect1, .section3__rect1, .section2__rect1 {
@@ -45,7 +45,7 @@
 
 .section6__rect2, .section5__rect2, .section4__rect2, .section3__rect2, .section2__rect2 {
   width: 60%;
-  height: 130%;
+  height: 145%;
   padding: 15px;
   background-color: black;
   -webkit-box-shadow: 0px 0px 50px black;
@@ -56,8 +56,9 @@
   text-shadow: 0px 0px 20px gray;
 }
 
-.section6__paragraph, .section5__paragraph, .section4__paragraph, .section3__paragraph, .section2__paragraph {
+.footer__paragraph, .section6__paragraph, .section5__paragraph, .section4__paragraph, .section3__paragraph, .section2__paragraph {
   font-size: 17px;
+  font-family: "Roboto", sans-serif;
 }
 
 .section2 {
@@ -124,6 +125,12 @@
           align-items: center;
   width: 100%;
   height: 700px;
+}
+.footer__icon:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 body {
   height: 300vh;
