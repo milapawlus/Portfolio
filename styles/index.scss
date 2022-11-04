@@ -1,9 +1,9 @@
 @use 'variables';
 
 @import 'landing';
+@import 'mediaQuaries';
 
 body {
-    height: 300vh;
     display: flex;
     justify-content: center;
     background-color: white;

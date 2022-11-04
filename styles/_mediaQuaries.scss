@@ -1,0 +1,193 @@
+@media screen and (max-width: 1480px) {
+    .aboutme_media {
+        height: 1020px;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .projects_media {
+        height: 800px;
+        transition: all 0.3s ease-in-out;
+
+        &__rect2 {
+            width: 80%;
+        }
+    }
+
+    .contact_media {
+
+        &__rect2 {
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .aboutme_media {
+        height: 940px;
+
+        &__rect2 {
+            width: 90%;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+
+    .edu_media {
+        height: 860px;
+    }
+
+    .skills_media {
+        &__rect2 {
+            width: 80%;
+        }
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .img-shadow {
+        height: 200px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .text-details {
+        font-size: 40px;
+    }
+
+    .aboutme_media {
+        height: 1260px;
+
+        &__rect2 {
+            width: 90%;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+
+    .edu_media {
+        height: 860px;
+
+        &__rect1 {
+            width: 80%;
+        }
+
+        &__rect2 {
+            width: 80%;
+        }
+    }
+
+    .projects_media {
+        height: 800px;
+    
+        &__rect1 {
+            width: 90%;
+        }
+
+        &__rect2 {
+            width: 90%;
+        }
+    }
+
+    .skills_media {
+        &__rect1 {
+            width: 90%;
+        }
+
+        &__rect2 {
+            width: 90%;
+        }
+    }
+
+    .contact_media {
+
+        &__rect1 {
+            width: 90%;
+            transition: all 0.3s ease-in-out;
+        }
+
+        &__rect2 {
+            width: 90%;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .aboutme_media {
+        height: 1460px;
+
+        &__rect1 {
+            width: 90%;
+        }
+
+        &__rect2 {
+            width: 90%;
+        }
+    }
+
+    .edu_media {
+        height: 860px;
+
+        &__rect1 {
+            width: 90%;
+        }
+
+        &__rect2 {
+            width: 90%;
+        }
+    }
+
+    .projects_media {
+        height: 1060px;
+    
+        &__rect2 {
+            width: 90%;
+        }
+
+        &__rect2 {
+            width: 90%;
+        }
+    }
+
+    .sections__list {
+        font-size: 20px;
+    }
+
+    .contact_media {
+        height: 800px;
+        &__rect1 {
+            width: 90%;
+        }
+
+        &__rect2 {
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .projects_media {
+        height: 1400px;
+    
+        &__rect2 {
+            width: 90%;
+        }
+
+        &__rect2 {
+            width: 90%;
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .aboutme_media {
+        height: 1360px;
+
+        &__rect1 {
+            width: 100%;
+        }
+
+        &__rect2 {
+            width: 90%;
+        }
+    }
+}

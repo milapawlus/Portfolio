@@ -4,11 +4,11 @@
 }
 
 .nav-hover {
-    color: #5271ff;
+    color: variables.$blue-color;
 }
 
 .nav-hover:hover {
-    color:white;
+    color:variables.$white-color;
     text-shadow: 0px 0px 50px black;
     transition: all 0.3s ease-in-out;
     transform: scale(1.1);
@@ -16,7 +16,6 @@
 
 .img-shadow {
     margin-top: 40px;
-    margin-bottom: 40px;
     box-shadow: 0px 0px 50px gray;
 }
 
@@ -31,7 +30,7 @@
     align-items: center;
     width: 70%;
     height: 60%;
-    background-color: #5271ff;
+    background-color: variables.$blue-color;
 }
 
 %section__rect2 {
@@ -48,35 +47,12 @@
 
 %section__paragraph {
     font-size: 17px;
-    font-family: 'Roboto', sans-serif;
-    color: white;
+    font-family: variables.$font;
+    color: variables.$white-color;
 }
 
-.section2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 700px;
-
-    &__rect1 {
-        @extend %section__rect1;
-    }
-
-    &__rect2 {
-        @extend %section__rect2;
-    }
-
-    &__heading {
-        @extend %section__heading;
-    }
-
-    &__paragraph {
-        @extend %section__paragraph;
-    }
-}
-
-.section3 {
+.sections {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,127 +76,61 @@
     }
 
     &__education_name {
-        font-family: 'Roboto', sans-serif;
+        font-family: variables.$font;
         font-size: 25px;
-        color: white;
+        color: variables.$white-color;
     }
 
     &__education_type {
         font-size: 15px;
-        color: #5271ff;
+        color: variables.$blue-color;
         list-style: none;
     }
 
     &__education_place {
         font-size: 13px;
-        color: #5271ff;
+        color: variables.$blue-color;
         list-style: none;
-    }
-}
-
-.section4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 700px;
-
-    &__rect1 {
-        @extend %section__rect1;
-    }
-
-    &__rect2 {
-        @extend %section__rect2;
-    }
-
-    &__heading {
-        @extend %section__heading;
-    }
-
-    &__paragraph {
-        @extend %section__paragraph;
     }
 
     &__list {
-        color: white;
+        color: variables.$white-color;
         font-size: 25px;
     }
 
     &__link {
-        font-family: 'Roboto', sans-serif;
+        font-family: variables.$font;
         font-size: 25px;
-        color: white;
+        color: variables.$white-color;
         text-decoration: none;
     }
 
     &__details {
         font-size: 18px;
-        color: #5271ff;
+        color: variables.$blue-color;
         list-style: none;
-    }
-}
-
-.section5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 700px;
-
-    &__rect1 {
-        @extend %section__rect1;
-    }
-
-    &__rect2 {
-        @extend %section__rect2;
-    }
-
-    &__heading {
-        @extend %section__heading;
-    }
-
-    &__paragraph {
-        @extend %section__paragraph;
     }
 
     &__list {
-        font-family: 'Roboto', sans-serif;
+        font-family: variables.$font;
         font-size: 25px;
-        color: white;
+        color: variables.$white-color;
         margin-left: 40px;
-    }
-}
-
-.section6 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 700px;
-
-    &__rect1 {
-        @extend %section__rect1;
-    }
-
-    &__rect2 {
-        @extend %section__rect2;
-    }
-
-    &__heading {
-        @extend %section__heading;
-    }
-
-    &__paragraph {
-        @extend %section__paragraph;
     }
 
     &__label_info {
-        color: white;
+        color: variables.$white-color;
     }
 
     &__input_info {
         resize: none;
         outline: none;
+    }
+
+    &__btn:hover {
+        transition: all 0.3s ease-in-out;
+        transform: scale(1.1);
+        color: black;
     }
 }
 
